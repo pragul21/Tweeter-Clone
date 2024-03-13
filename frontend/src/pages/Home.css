@@ -1,0 +1,144 @@
+.navbar-small {
+    display: none;
+}
+
+.left-colHome {
+    position: fixed;
+    /* border: 1px solid rgb(233, 226, 226); */
+    height: 100%
+}
+
+.right-col {
+    margin-left: 30%;
+    border: 1px solid rgb(233, 226, 226);
+}
+
+.link-left {
+    color: rgb(71, 67, 67);
+    font-weight: 800;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.btn-link {
+    border: none;
+    background-color: transparent;
+}
+
+.home-fontIcon {
+    margin-right: 6px;
+
+}
+
+.profileUsername {
+    margin-top: -5px;
+    margin-left: 45px;
+    font-size: 70%;
+}
+
+#profileFull {
+    position: absolute;
+    right: 20%;
+    bottom: 0;
+}
+
+#profile {
+    height: 25px;
+    margin-bottom: -12px;
+
+}
+
+.header-home {
+    margin-bottom: 10px;
+}
+
+.btn-tweet {
+    padding: 3px 20px 3px 20px;
+    margin-left: 150px;
+}
+
+.header-home {
+    font-weight: 700;
+    margin-top: 4px;
+    margin-left: -13px;
+}
+
+.modal-textarea {
+    border-radius: 8px;
+}
+
+.FileUpload {
+    opacity: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.upload-icon {
+    position: absolute;
+    height: 30px;
+    left: 40px;
+}
+
+#topIcon-home {
+    color: blue;
+    height: 20px
+}
+
+@media only screen and (max-width: 600px) {
+    .sidebar-names {
+        display: none;
+
+    }
+
+    #topIcon-home {
+        height: 45px;
+    }
+
+
+    #profile {
+        position: absolute;
+        right: 20%;
+        bottom: 40px;
+        height: 50px;
+    }
+
+    .home-fontIcon {
+        height: 40px;
+        margin-bottom: 20px;
+        margin-left: -30px;
+    }
+
+    .right-col {
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .sidebar-names {
+        display: none;
+
+    }
+
+    #topIcon-home {
+        margin-left: 2px;
+    }
+
+
+    #profile {
+        position: absolute;
+        right: 20%;
+        bottom: 40px;
+        height: 40px;
+    }
+
+    .home-fontIcon {
+        height: 30px;
+        margin-bottom: 20px;
+        margin-left: -35px;
+    }
+
+    .right-col {
+        width: 100vw;
+    }
+}

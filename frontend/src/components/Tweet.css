@@ -1,0 +1,88 @@
+.card-img-bottom {
+    width: 70%;
+    margin-left: 5%;
+}
+
+.card-tweet {
+    padding: 0px 10px 5px 40px;
+    cursor: pointer;
+}
+
+.card-click:hover {
+    background-color: aliceblue;
+}
+
+
+.like-dislike {
+    margin-left: -30%;
+}
+
+.card-fontIcon {
+    color: black;
+    padding: 5px;
+}
+
+.card-fontIcon:hover {
+    background-color: rgb(138, 138, 222);
+
+}
+
+.icons-bottom {
+    margin-top: 8px;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -20px;
+    left: 5px;
+}
+
+.card-username {
+    font-size: 75%;
+    font-weight: 600;
+    position: absolute;
+    margin-top: -20px;
+    color: black;
+
+}
+
+.tweet-date {
+    font-weight: 300;
+    font-size: 90%;
+    color: black;
+}
+
+.card-text {
+    font-size: 80%;
+}
+
+.retweeted-by {
+    font-size: 70%;
+    text-align: left;
+    margin-left: -15px;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+
+.like-count {
+    font-size: 80%;
+    color: black;
+    text-decoration: none;
+
+}
+
+#liked {
+    color: rgb(0, 0, 0);
+}
+
+.delete-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: white;
+    border: none;
+}

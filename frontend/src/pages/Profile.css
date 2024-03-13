@@ -1,0 +1,74 @@
+.blue-cover {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(76, 137, 217);
+
+}
+
+.profile-image {
+    position: absolute;
+    width: 110px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -40px;
+}
+
+.follow-btn {
+    padding: 3px;
+    position: absolute;
+    left: 68%;
+    margin-top: 15px;
+}
+
+.below-profile {
+    margin-top: 70px;
+    /* margin-left: -8%; */
+    text-align: left;
+}
+
+.fontIcon-profile {
+    font-size: 75%;
+}
+
+.following {
+    font-size: 80%;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+#updateProfile-btn {
+    border-radius: 5px;
+    color: rgb(0, 102, 255);
+    background-color: white;
+    border: 2px solid rgb(0, 102, 255);
+}
+
+#edit-btn {
+    border-radius: 5px;
+    border: 2px solid grey;
+    background-color: white;
+    color: grey;
+    margin-left: 3px;
+
+}
+
+.buttons-user {
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: -10px
+}
+
+.profile-uploadImg {
+    width: 400px;
+    margin-top: 10px;
+}
+
+.edit-details {
+    width: 450px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(156, 154, 154);
+    margin-bottom: 10px;
+}
